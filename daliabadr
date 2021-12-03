@@ -1,0 +1,30 @@
+sudo apt-get install git.all
+
+
+git config --global user.name "dalia-badr"
+
+
+git config --global user.email "eng.dalia.badr@gmail.com"
+
+git config --list
+
+ssh-keygen -t rsa -b 4069 -C "eng.dalia.badr@gmail.com"
+
+cat /home/dalia/.ssh/id_rsa.pub
+
+
+git init
+
+commit -m "my first commit"
+
+branch -M main
+
+git branch -M main
+
+git remote add origin git@github.com:eng-dalia.badr/ITI.git
+
+git add .
+
+git commit -m "my first commit"
+
+git push -u origin main
