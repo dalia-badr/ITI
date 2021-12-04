@@ -1,3 +1,4 @@
+lab one
 sudo apt-get install git.all
 
 
@@ -28,3 +29,106 @@ git add .
 git commit -m "my first commit"
 
 git push -u origin main
+
+
+lab two
+
+git branch dev
+
+git checkout dev
+
+touch file1 file2
+
+add . 
+
+git add .
+
+git commit -m "add dev branch"
+
+git push origin dev
+
+
+git branch test
+
+git checkout test
+
+touch test
+
+add . 
+
+git add .
+
+git commit -m "add test branch"
+
+git push origin test
+
+
+git chechout main
+
+git merge dev
+
+git merge test
+
+git add .
+
+git commit -m "merge"
+
+git push 
+
+
+git push origin main
+
+delete branch from gihub
+git push origin :dev 
+git push origin :test 
+
+
+delete branch locally 
+git branch -d dev
+git branch -d test
+
+create a tag
+git tag -a v1.4 -m "creating a tag"
+
+git tag
+
+push tag
+git push origin v1.4
+
+
+
+delete tag on cloud
+git push origin --delete v1.4 
+
+
+delete tag locally 
+git tag -d v1.4 
+
+
+
+create readme file 
+touch README.md
+
+add folder image 
+mkdir image
+
+add image inside folder then push it
+
+git add .
+git commit -m "add image"
+git push origin master
+
+code .
+on README.md add
+![](https://github.com/dalia-badr/ITI/blob/main/image/Devops1.jpeg)
+
+git add .
+git commit -m "image"
+git push origin master
+
+
+
+
+
+
+
